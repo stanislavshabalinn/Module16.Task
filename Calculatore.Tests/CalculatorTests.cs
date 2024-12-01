@@ -39,7 +39,7 @@ namespace Module16
         }
 
         [Test]
-        public void DivisionDontThrowsExeptions() // проверка на отработку нуля в знаменателе
+        public void DivisionDontThrowsExeptions() 
         {
             var unit = new Calculator();
             Assert.DoesNotThrow(() => unit.Division(1, 0));
